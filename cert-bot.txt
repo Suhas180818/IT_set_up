@@ -1,0 +1,5 @@
+Install and create ssl certificate with below commands
+		
+
+sudo apt install -y certbot 
+sudo certbot certonly --standalone -d example.com --staple-ocsp -m info@example.com --agree-tos --noninteractive
